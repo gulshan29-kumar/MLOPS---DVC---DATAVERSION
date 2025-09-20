@@ -11,6 +11,7 @@ df = pd.DataFrame(data)
 
 # Add a new row (make sure column names match exactly)
 df.loc[len(df)] = ['girl1', 40, 'newyork']
+df.loc[len(df)] = ['girl4', 30, 'newyork1']
 
 # Create directory if not exists
 data_dir = 'data'
